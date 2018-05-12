@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:StarWarsDemoApp"
+             x:Class="StarWarsDemoApp.MainPage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="MainPageButtonStyle" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="White"/>
+                <Setter Property="HorizontalOptions" Value="Center"/>
+                <Setter Property="VerticalOptions" Value="Center"/>
+                <Setter Property="HeightRequest" Value="100"/>
+                <Setter Property="WidthRequest" Value="100"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+
+        <Image  Grid.Row="0"
+                Source="StarWarsApp.png"/>
+
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+
+            <Button x:Name="PlanetsButton"
+                    Grid.Row="0"
+                    Command="{Binding PlanetsCommand}"
+                    Style="{StaticResource MainPageButtonStyle}">
+                <Button.Image>
+                    <FileImageSource File="Planets.jpg"/>
+                </Button.Image>
+            </Button>
+
+            <Button x:Name="StarShipsButton"
+                    Grid.Row="1"
+                    Command="{Binding StarShipsCommand}"
+                    Style="{StaticResource MainPageButtonStyle}">
+                <Button.Image>
+                    <FileImageSource File="Spaceships.jpg"/>
+                </Button.Image>
+            </Button>
+
+            <Button x:Name="PeopleButton"
+                    Grid.Row="2"
+                    Command="{Binding PeopleCommand}"
+                    Style="{StaticResource MainPageButtonStyle}">
+                <Button.Image>
+                    <FileImageSource File="People.jpg"/>
+                </Button.Image>
+            </Button>
+
+        </Grid>
+
+        <Label x:Name="VersionLabel"
+               Grid.Row="2"
+               HorizontalTextAlignment="End"
+               VerticalTextAlignment="End"
+               FontSize="Medium"
+               FontAttributes="Bold"
+               Text="{Binding Model.Version}"/>
+    </Grid>
+
+</ContentPage>

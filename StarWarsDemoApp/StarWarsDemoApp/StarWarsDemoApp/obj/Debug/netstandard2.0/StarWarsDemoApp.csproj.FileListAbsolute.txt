@@ -1,0 +1,9 @@
+C:\StarWarsDemoApp\StarWarsDemoApp\StarWarsDemoApp\StarWarsDemoApp\bin\Debug\netstandard2.0\StarWarsDemoApp.deps.json
+C:\StarWarsDemoApp\StarWarsDemoApp\StarWarsDemoApp\StarWarsDemoApp\bin\Debug\netstandard2.0\StarWarsDemoApp.dll
+C:\StarWarsDemoApp\StarWarsDemoApp\StarWarsDemoApp\StarWarsDemoApp\bin\Debug\netstandard2.0\StarWarsDemoApp.pdb
+C:\StarWarsDemoApp\StarWarsDemoApp\StarWarsDemoApp\StarWarsDemoApp\obj\Debug\netstandard2.0\StarWarsDemoApp.csproj.CoreCompileInputs.cache
+C:\StarWarsDemoApp\StarWarsDemoApp\StarWarsDemoApp\StarWarsDemoApp\obj\Debug\netstandard2.0\StarWarsDemoApp.AssemblyInfoInputs.cache
+C:\StarWarsDemoApp\StarWarsDemoApp\StarWarsDemoApp\StarWarsDemoApp\obj\Debug\netstandard2.0\StarWarsDemoApp.AssemblyInfo.cs
+C:\StarWarsDemoApp\StarWarsDemoApp\StarWarsDemoApp\StarWarsDemoApp\obj\Debug\netstandard2.0\StarWarsDemoApp.dll
+C:\StarWarsDemoApp\StarWarsDemoApp\StarWarsDemoApp\StarWarsDemoApp\obj\Debug\netstandard2.0\StarWarsDemoApp.pdb
+C:\StarWarsDemoApp\StarWarsDemoApp\StarWarsDemoApp\StarWarsDemoApp\obj\Debug\netstandard2.0\StarWarsDemoApp.csprojAssemblyReference.cache
